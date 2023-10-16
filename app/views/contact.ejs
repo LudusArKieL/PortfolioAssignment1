@@ -1,0 +1,42 @@
+<!--
+    Express PortFolio Assignment 1
+    Author: Mark Deriel P. Bernardino
+    Student ID: 301271907
+    Date: October 5, 2023
+-->
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+    <link rel="stylesheet" href="/public/Assets/style.css"/>
+<main class="ontainer">
+<div class="jumbotron">
+
+    <h1>Welcome to <%= title %> Page</h1>
+    </div>
+    <section class="contact">
+        <div class="Contact_Form">
+            <h1> Contact <span>Us</span></h1>
+            <p>Just Email us if you are interested or have a questions</p>
+            <form action="mailto:markderiel.com" method="post">
+                <label for="First">First name: </label>
+                <input type="" id="First" placeholder="Your First Name" required>
+                <label for="Last">Last name: </label>
+                <input type="" id="Last"placeholder="Your Last Name" required>
+                <label for="Number">Phone Number: </label>
+                <input type="" id="Number" placeholder="Your Phone Number" required>
+                <label for="Email">Email: </label>
+                <input type="email" name="email" id="Email" placeholder="E-mail" required>
+                <input type="" placeholder="Comments (Optional)" >
+                <input name="btnSubmit"  type="submit" value="Submit" class="btn">
+            </form>
+        </div>
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   

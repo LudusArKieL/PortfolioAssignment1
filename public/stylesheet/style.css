@@ -1,0 +1,428 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.Bg1-Img{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.Bg-Img img{
+    height: auto;
+    width: 45%;
+    background-size: cover;
+    margin-top: 5%;
+    margin-left: 50%;
+    background-repeat: no-repeat;
+    border: 2px solid #191919;
+    display: flex;
+}
+nav{
+    padding: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    background-color: black; /* Change this to your preferred background color */
+    display: flex;
+    border: 2px solid white; /* Change border color if necessary */
+    box-shadow: inset;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h2{
+    padding: 1em;
+    color: white; /* Change text color to white */
+    letter-spacing: 3px;
+}
+nav ul,li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul,li a{
+    color: white; /* Change link color to white */
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+ul,li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+li{
+    cursor: pointer;
+    transform: all .5s ease-in-out;
+    margin: 0.5em;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.Content-Property{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.Content-Property h1{
+    margin: 20px 0px 20px;
+    font-size: 40px;
+}
+li:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.3;
+    box-shadow: 3px 5px 5px #888888;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.content h1{
+    margin: 20px 0px 20px;
+}
+.content h4{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.content h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #888888;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #888888;
+    transition: .4s;
+    top: 6px;
+    right: 6px;
+}
+.newslatter form input:last-child:hover{
+    background-color: transparent;
+    border: 1px solid #f9004d;
+    cursor: pointer;
+}
+.Details{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: whitesmoke;
+}
+
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main img{
+    height: auto;
+    width: 45%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #191919;
+    display: flex;
+}
+.about-text h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: black;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button {
+    background-color: #f9004d;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #888888;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.service{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: black;
+    font-size: 75px;
+    width:1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 80vh;
+    width: 100%;
+    padding: 20px 35px;
+    background: lightgrey;
+    border-radius: 20px;
+    border: 2px solid #191919;
+    margin: 15px;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card1{
+    height: auto;
+    width: 90%;
+    padding: 20px 35px;
+    background: lightgrey;
+    border-radius: 20px;
+    border: 2px solid #191919;
+    margin: 15px;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card1 .button{
+    background-color: #f9004d;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #888888;
+    padding: 9px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card1 .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.card h5{
+    color: black;
+    font-size: 23px;
+    margin: 15px;
+}
+.pra p{
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #f9004d;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #888888;
+    padding: 9px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    height: 400px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    color: black;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #888888;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: black;
+    bottom: 35px;
+    font-size: 14px;
+
+}
+.Statement{
+    width: 100%;
+    padding: 100px 0px;
+
+}
+.title h2{
+    color: black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px;
+
+}
+section{
+    padding: 40px 15%;
+}
+.contact{
+    background: whitesmoke;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+}
+
+.Contact_Form h1{
+    font-size: 80px;
+    color: black;
+    margin-top: 15%;
+    margin-bottom: 20px;
+}
+.Contact_Form p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+span{
+    color: red;
+}
+.Contact_Form form{
+    position: relative;
+}
+.Contact_Form form input,textarea{
+    width: 100%;
+    padding: 17px;
+    border: 0;
+    outline: 0;
+    color: white;
+    background: #191919;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+label{
+    color: black;
+}
+.Contact_Form textarea{
+    resize: none;
+    height: 200px;
+}
+
+.Contact_Form .btn{
+    display: inline-block;
+    background: #f9004d;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 2px;
+    border-radius: 10px;
+    width: 220px;
+    transition: .4s;
+    cursor: pointer;
+}
+.Contact_Form .btn.hover{
+    border: 2px solid white;
+    background: transparent;
+    cursor: pointer;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 5px auto auto;
+}
+
+th{
+    font-size: 35px;
+    text-align: center;
+}
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+  
+tr:nth-child(even) {
+   background-color: #dddddd;
+}
